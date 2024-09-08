@@ -1,4 +1,4 @@
-# 1. AOP란?
+## 1. AOP란?
 
 > 컴퓨팅에서 **관점 지향 프로그래밍**(aspect-oriented programming, AOP)은 횡단 관심사(cross-cutting concern)의 분리를 허용함으로써 모듈성을 증가시키는 것이 목적인 프로그래밍 패러다임이다. 코드 그 자체를 수정하지 않는 대신 기존의 코드에 추가 동작(어드바이스)을 추가함으로써 수행하며, "함수의 이름이 'set'으로 시작하면 모든 함수 호출을 기록한다"와 같이 어느 코드가 포인트컷(pointcut) 사양을 통해 수정되는지를 따로 지정한다. 이를 통해 기능의 코드 핵심부를 어수선하게 채우지 않고도 비즈니스 로직에 핵심적이지 않은 동작들을 프로그램에 추가할 수 있게 한다. 관점 지향 프로그래밍은 관점 지향 소프트웨어 개발의 토대를 형성한다.
 >
@@ -18,6 +18,7 @@
 ## 2. AOP 용어
 
 Spring AOP에서 사용하는 주요 용어의 의미를 알아보자.
+
 ![baeldung - spring-aop](./img/springAOP.png)
 
 [baeldung.com/spring-aop](https://www.baeldung.com/spring-aop)
