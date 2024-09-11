@@ -13,4 +13,5 @@
 - [Servlet 전역 예외 처리](./Spring/Servlet_전역_예외_처리/page.md)
 
 ## Git
+- [Git 설치](./Git/install/page.md)
 - [Git 구조](./Git/structure/page.md)
