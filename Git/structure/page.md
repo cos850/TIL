@@ -11,13 +11,14 @@ Git 은 크게보면 4가지 공간으로 나누어져 있다.
 
 > **[ Local ]**
 > 
-> **working directory**\
+> **working directory** \
 > : 프로젝트의 파일을 수정하며 작업을 진행하는 공간
 > 
-> **staging area\
-> :** 히스토리에 저장할 준비를 마친 파일을 옮겨 두는 공간\
-> **.git directory / repository\
-> :** 버전의 히스토리를 가지고있는 공간
+> **staging area** \
+> : 히스토리에 저장할 준비를 마친 파일을 옮겨 두는 공간\
+> 
+> **.git directory / repository** \
+> : 버전의 히스토리를 가지고있는 공간
 > 
 
 <br />
@@ -77,4 +78,6 @@ ${\textsf{\color{gray}staging 의 a.txt와 합쳐진다}}$
     
 ![status_4](./img/status_4.png)
 
-${\textsf{\color{gray}모든 파일이 다시 untracked 로 돌아온다.  add된 상태에서 `git status`를 확인해보면 해당 명령으로 돌아올 수 있다고 알려준다.}}$
+${\textsf{\color{gray}모든 파일이 다시 untracked 로 돌아온다}}$
+
+${\textsf{\color{gray}add된 상태에서}}$ `git status` ${\textsf{\color{gray}를 확인해보면 해당 명령으로 돌아올 수 있다고 알려준다}}$
