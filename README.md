@@ -9,3 +9,4 @@
 
 ## Spring
 - [AOP(Aspect Oriented Programing)](./Spring/AOP/page.md)
+- [제어의 역전(IoC, Inversion of Control)](./Spring/IoC/page.md)
