@@ -29,6 +29,7 @@
 - 다운로드가 끝나면 설치 시작
 
     next 클릭
+
     ![start setup](./img/start_setup.png)
 
 <br />
@@ -36,6 +37,7 @@
 - Git 설치 경로이다. 변경하지 않고 넘어간다
 
     next 클릭
+
     ![setup1](./img/setup1.png)
 
 <br />
@@ -43,6 +45,7 @@
 - 설치할 컴포넌트들, 기본값을 변경하지 않고 그냥 넘어간다
 
     next 클릭
+
     ![setup2](./img/setup2.png)
 
 <br />
@@ -50,20 +53,23 @@
 - 시작메뉴에 git 폴더를 만든다. 만들고 싶지 않으면 아래의 체크박스를 클릭하고 넘어간다
 
     next 클릭
+
     ![setup3](./img/setup3.png)
 
 <br />
 
-기본 에디터 선택, VSCode를 사용중이라 변경했다
+- 기본 에디터 선택, VSCode를 사용중이라 변경했다
 
-    본인이 사용하는 에디터로 변경하고 next
-    ![setup4](./img/setup4.png)
+     본인이 사용하는 에디터로 변경하고 next
+     
+     ![setup4](./img/setup4.png)
 
 <br />
 
-그 뒤에 나오는 창들은 기본값 그대로 next를 계속 눌러준다
+- 그 뒤에 나오는 창들은 기본값 그대로 next를 계속 눌러준다
 
     ![setup5](./img/setup5.png)
+
     ![setup6](./img/setup6.png)
 
 
@@ -73,13 +79,13 @@
 
 <br />
 
-모두 기본값으로 넘어가면 다운로드를 시작한다
+- 모두 기본값으로 넘어가면 다운로드를 시작한다
 
     ![setup7](./img/setup7.png)
 
 <br />
 
-설치가 끝나면 finish를 눌러 창을 닫는다
+- 설치가 끝나면 finish를 눌러 창을 닫는다
 
     ![finish setup](./img/finish_setup.png)
 
