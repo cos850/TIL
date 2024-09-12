@@ -15,3 +15,4 @@
 ## Git
 - [Git 설치](./Git/install/page.md)
 - [Git 구조](./Git/structure/page.md)
+- [Git CLI 기본 설정 및 사용](./Git/basic/page.md)
