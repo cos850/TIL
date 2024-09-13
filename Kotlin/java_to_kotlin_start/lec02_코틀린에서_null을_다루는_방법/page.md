@@ -1,5 +1,11 @@
 # Kotlin에서 null을 다루는 방법
 
+> [!NOTE]
+> **소스 코드:** 
+> [github - lec02: Kotlin에서 null을 다루는 방법](https://github.com/cos850/java-to-kotlin-starter-guide/tree/master/src/main/kotlin/com/lannstark/lec02)
+
+<br />
+
 - kotlin에서는 nullable 변수의 내부로 접근하면 컴파일 오류가 발생한다.
 - 하지만, nullable 객체에 접근하기 전에 위에서 null 검사를 해주면, 컴파일러가 null이 아니라고 간주해서 객체 내부의 요소에 접근할 수 있게 된다.
 
