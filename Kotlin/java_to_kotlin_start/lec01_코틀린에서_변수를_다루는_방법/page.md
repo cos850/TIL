@@ -1,7 +1,8 @@
 # Kotlin에서 변수를 다루는 방법
 
-### 소스 코드
-[github - lec01: Kotlin에서 변수를 다루는 방법](https://github.com/cos850/java-to-kotlin-starter-guide/tree/master/src/main/kotlin/com/lannstark/lec01)
+> [!NOTE]
+> **소스 코드:** 
+> [github - lec01: Kotlin에서 변수를 다루는 방법](https://github.com/cos850/java-to-kotlin-starter-guide/tree/master/src/main/kotlin/com/lannstark/lec01)
 
 <br />
 
