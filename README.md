@@ -16,6 +16,7 @@
 - [lec02: 코틀린에서 null을 다루는 방법](./Kotlin/java_to_kotlin_start/lec02_코틀린에서_null을_다루는_방법/page.md)
 - [lec03: 코틀린에서 type을 다루는 방법](./Kotlin/java_to_kotlin_start/lec03_코틀린에서_type을_다루는_방법/page.md)
 - [lec04: 코틀린에서 연산자를 다루는 방법](./Kotlin/java_to_kotlin_start/lec04_코틀린에서_연산자를_다루는_방법/page.md)
+- [lec05: 코틀린에서 제어문을 다루는 방법](./Kotlin/java_to_kotlin_start/lec05_코틀린에서_제어문을_다루는_방법/page.md)
 
 <br />
 
