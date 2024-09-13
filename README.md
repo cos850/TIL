@@ -14,6 +14,7 @@
 ### Java 개발자를 위한 Kotlin 입문
 - [lec01: 코틀린에서 변수를 다루는 방법](./Kotlin/java_to_kotlin_start/lec01_코틀린에서_변수를_다루는_방법/page.md)
 - [lec02: 코틀린에서 null을 다루는 방법](./Kotlin/java_to_kotlin_start/lec02_코틀린에서_null을_다루는_방법/page.md)
+- [lec03: 코틀린에서 type을 다루는 방법](./Kotlin/java_to_kotlin_start/lec03_코틀린에서_type을_다루는_방법/page.md)
 
 <br />
 
