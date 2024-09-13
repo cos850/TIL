@@ -16,3 +16,7 @@
 - [Git 설치](./Git/install/page.md)
 - [Git 구조](./Git/structure/page.md)
 - [Git CLI 기본 설정 및 사용](./Git/basic/page.md)
+
+## Tools
+### IntelliJ
+- [Project별 IntelliJ 실행하기](./Tools/IntelliJ/프로젝트별_IntelliJ_실행/page.md)
