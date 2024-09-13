@@ -207,3 +207,9 @@ fun startsWithA3Kt(str: String?): Boolean {
     return str?.startsWith("A") ?: false
 }
 ```
+
+<br />
+
+------
+### 참조
+- [자바 개발자를 위한 코틀린 입문(Java to Kotlin Starter Guide)](https://www.inflearn.com/course/java-to-kotlin/dashboard)
