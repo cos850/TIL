@@ -22,7 +22,7 @@ val number2 = 3.0   // Double
 <br />
 
 > [!NOTE]
-> Java에서는 기본 타입간의 변환은 **암시적**으로 이루어질 수 있음
+> Java에서는 기본 타입간의 변환은 **암시적**으로 이루어질 수 있음 \
 > Kotlin에서는 기본 타입간의 변환이 **명시적**으로 이루어져야 함
 
 **예시)**
@@ -118,9 +118,10 @@ val personDesc = "이름은 ${person2.name}, 나이는 ${person2.age}"
 val str = "ABCD"
 val ch = str[2]
 ```
+
 <br />
 
-### `"""`
+### String `"""`
 ```kotlin
 """
     Hello
