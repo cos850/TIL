@@ -2,7 +2,7 @@
 
 > [!NOTE]
 > **소스 코드:** 
-> [github - lec02: Kotlin에서 null을 다루는 방법](https://github.com/cos850/java-to-kotlin-starter-guide/tree/master/src/main/kotlin/com/lannstark/lec03)
+> [github - lec03: Kotlin에서 type을 다루는 방법](https://github.com/cos850/java-to-kotlin-starter-guide/tree/master/src/main/kotlin/com/lannstark/lec03)
 
 <br />
 
