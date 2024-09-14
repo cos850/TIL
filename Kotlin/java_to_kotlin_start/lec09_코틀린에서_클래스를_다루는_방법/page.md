@@ -173,6 +173,10 @@ class Person (name: String, var age: Int) {
 ```
 <br />
 
+> [!WARNING]
+> **backing field** \
+> custom getter / setter에서 자기 자신을 접근할 떄 `field` 키워드를 사용하지 않으면, 무한 루프에 빠질 수 있으므로 주의해야 한다.
+
 위 코틀린 `Person` 클래스 코드를 디컴파일러를 통해 자바로 변환해보면 아래와 같다.
 
 ```java
