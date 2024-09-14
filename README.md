@@ -20,6 +20,7 @@
 - [lec06: 코틀린에서 반복문을 다루는 방법](./Kotlin/java_to_kotlin_start/lec06_코틀린에서_반복문을_다루는_방법/page.md)
 - [lec07: 코틀린에서 예외를 다루는 방법](./Kotlin/java_to_kotlin_start/lec07_코틀린에서_예외를_다루는_방법/page.md)
 - [lec08: 코틀린에서 함수를 다루는 방법](./Kotlin/java_to_kotlin_start/lec08_코틀린에서_함수를_다루는_방법/page.md)
+- [lec09: 코틀린에서 클래스를 다루는 방법](./Kotlin/java_to_kotlin_start/lec09_코틀린에서_클래스를_다루는_방법/page.md)
 
 <br />
 
