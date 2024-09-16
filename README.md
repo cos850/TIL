@@ -25,6 +25,7 @@
 - [lec11: 코틀린에서 접근제어를 다루는 방법](./Kotlin/java_to_kotlin_start/lec11_코틀린에서_접근제어를_다루는_방법/page.md)
 - [lec12: 코틀린에서 Object 키워드를 다루는 방법](./Kotlin/java_to_kotlin_start/lec12_코틀린에서_object_키워드를_다루는_방법/page.md)
 - [lec13: 코틀린에서 중첩 클래스를 다루는 방법](./Kotlin/java_to_kotlin_start/lec13_코틀린에서_중첩클래스를_다루는_방법/page.md)
+- [lec14: 코틀린에서 다양한 클래스를 다루는 방법](./Kotlin/java_to_kotlin_start/lec14_코틀린에서_다양한_클래스를_다루는_방법/page.md)
 
 
 <br />
