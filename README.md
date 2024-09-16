@@ -22,6 +22,8 @@
 - [lec08: 코틀린에서 함수를 다루는 방법](./Kotlin/java_to_kotlin_start/lec08_코틀린에서_함수를_다루는_방법/page.md)
 - [lec09: 코틀린에서 클래스를 다루는 방법](./Kotlin/java_to_kotlin_start/lec09_코틀린에서_클래스를_다루는_방법/page.md)
 - [lec10: 코틀린에서 상속을 다루는 방법](./Kotlin/java_to_kotlin_start/lec10_코틀린에서_상속을_다루는_방법/page.md)
+- [lec11: 코틀린에서 접근제어를 다루는 방법](./Kotlin/java_to_kotlin_start/lec11_코틀린에서_접근제어를_다루는_방법/page.md)
+- [lec12: 코틀린에서 Object 키워드를 다루는 방법](./Kotlin/java_to_kotlin_start/lec12_코틀린에서_object_키워드를_다루는_방법/page.md)
 
 <br />
 
