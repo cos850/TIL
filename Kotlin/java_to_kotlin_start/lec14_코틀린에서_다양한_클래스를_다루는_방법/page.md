@@ -4,8 +4,6 @@
 > **소스코드**: 
 > [lec14: 코틀린에서 다양한 클래스를 다루는 방법](https://github.com/cos850/java-to-kotlin-starter-guide/tree/master/src/main/kotlin/com/lannstark/lec14)
 
-> [!TIP]
-> 
 
 <br />
 
@@ -97,12 +95,12 @@ fun handleHyundaiCar(hyundaiCar: HyundaiCar) {
 
 <br />
 
-> [!TTP]
+> [!TIP]
 > 추상화가 필요한 Entity, DTO 에 sealed class를 활용
 
 <br />
 
-> [!TTP]
+> [!TIP]
 > JDK 17에서도 Sealed Class가 추가되었다!
 
 **예시**
