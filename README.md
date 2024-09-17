@@ -31,6 +31,7 @@
 - [lec17: 코틀린에서 람다를 다루는 방법](./Kotlin/java_to_kotlin_start/lec17_코틀린에서_람다를_다루는_방법/page.md)
 - [lec18: 코틀린에서 컬렉션을 함수형으로 다루는 방법](./Kotlin/java_to_kotlin_start/lec18_코틀린에서_컬렉션을_함수로_다루는_방법/page.md)
 - [lec19: 코틀린 이모저모](./Kotlin/java_to_kotlin_start/lec19_코틀린_이모저모/page.md)
+- [lec20: 코틀린의 Scope Function](./Kotlin/java_to_kotlin_start/lec20_코틀린의_scope_function/page.md)
 
 <br />
 
