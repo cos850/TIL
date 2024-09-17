@@ -27,6 +27,7 @@
 - [lec13: 코틀린에서 중첩 클래스를 다루는 방법](./Kotlin/java_to_kotlin_start/lec13_코틀린에서_중첩클래스를_다루는_방법/page.md)
 - [lec14: 코틀린에서 다양한 클래스를 다루는 방법](./Kotlin/java_to_kotlin_start/lec14_코틀린에서_다양한_클래스를_다루는_방법/page.md)
 - [lec15: 코틀린에서 배열과 컬렉션을 다루는 방법](./Kotlin/java_to_kotlin_start/lec15_코틀린에서_배열과_컬렉션을_다루는_방법/page.md)
+- [lec16: 코틀린에서 다양한 함수를 다루는 방법](./Kotlin/java_to_kotlin_start/lec16_코틀린에서_배열과_컬렉션을_다루는_방법/page.md)
 
 
 <br />
