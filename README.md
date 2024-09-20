@@ -33,6 +33,9 @@
 - [lec19: 코틀린 이모저모](./Kotlin/java_to_kotlin_start/lec19_코틀린_이모저모/page.md)
 - [lec20: 코틀린의 Scope Function](./Kotlin/java_to_kotlin_start/lec20_코틀린의_scope_function/page.md)
 
+### Error
+- [java.lang.ClassNotFoundException: kotlin.reflect.full.KClasses](./Kotlin/error/kotlin-reflect/page.md)
+
 <br />
 
 ## Spring
