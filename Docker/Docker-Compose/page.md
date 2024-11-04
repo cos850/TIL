@@ -51,7 +51,9 @@ network:
 ### Docker Compose 구성요소
 
 #### `service`
+
 여러 컨테이너를 정의하는 데 사용
+
 위와 같은 파일을 기준으로 `frontend`, `backend`라는 이름의 컨테이너를 정의하는 것
 
 - image: 컨테이너 이미지 정의
@@ -85,3 +87,48 @@ $ docker-compose up
     : 백그라운드에서 docker-compose를 실행하기 위해 사용\
     example)\
     `$ docker-compose up -d`
+
+<br /><br />
+
+## Dokcer Compose 실습
+
+### database와 redis 설정
+
+```yaml
+services:
+    aroundhub_db:
+        image: mariadb:10.6
+        container_name: db_master
+        restart: always
+        environment:
+            MARIADB_ROOT_PASSWORD: aroundhub12# # container 생성 후 root의 비밀번호를 저장한 파일 설정함
+            MARIADB_DATABASE: springboot
+            MARIADB_USER: flature
+            MARIADB_PASSWORD: aroundhub12#
+        volumes:
+            - ./master_db/data:/var/lib/mysql
+            - ./master_db/config/:/etc/mysql/conf.d
+        ports:
+            - "3307:3306"
+        
+        
+    aroundhub_redis:
+        image: redis:7.0.0
+        restart: always
+        ports:
+            - "6380:6379"
+```
+
+### 컨테이너 시작 명령어
+
+```
+$ docker-compose up
+```
+
+- d 옵션
+
+: 백그라운드에서 실행한다
+
+```
+$ docker-compose up -d
+```
