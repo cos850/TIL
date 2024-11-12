@@ -49,7 +49,7 @@
 - [4. Reactor 정리](./Spring/ReactivePrograming/Kevin's%20ReactivePrograming%201/4.%20Reactor%20정리/page.md)
 - [5. Flux와 Mono](./Spring/ReactivePrograming/Kevin's%20ReactivePrograming%201/5.%20Flux와%20Mono/page.md)
 - [6. Cold/Hot Sequence](./Spring/ReactivePrograming/Kevin's%20ReactivePrograming%201/6.%20ColdSequence-HotSequence/page.md)
-
+- [7. backpressure](./Spring/ReactivePrograming/Kevin's%20ReactivePrograming%201/7.%20BackPressure/page.md)
 
 
 <br />
@@ -68,6 +68,15 @@
 ## Kubernestes
 ### 쉽게 시작하는 쿠버네티스
 - [쿠버네티스란](./Kubernetes/쉽게_시작하는_쿠버네티스/1_쿠버네티스란/page.md)
+
+## Linux
+### [Linux Master](./Linux/linux%20master/)
+- [리눅스마스터 1](./Linux/linux%20master/리눅스%20마스터%20정리1.docx)
+- [리눅스마스터 2](./Linux/linux%20master/리눅스%20마스터%20정리2.docx)
+- [리눅스마스터 3](./Linux/linux%20master/리눅스%20마스터%20정리3.docx)
+- [리눅스마스터-명령어](./Linux/linux%20master/리눅스%20명령어%20정리%20[30개].docx)
+### 명령어 정리
+
 
 <br />
 
