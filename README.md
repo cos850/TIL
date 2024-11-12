@@ -75,8 +75,9 @@
 - [리눅스마스터 2](./Linux/linux%20master/리눅스%20마스터%20정리2.docx)
 - [리눅스마스터 3](./Linux/linux%20master/리눅스%20마스터%20정리3.docx)
 - [리눅스마스터-명령어](./Linux/linux%20master/리눅스%20명령어%20정리%20[30개].docx)
-### 명령어 정리
-
+### 명령어
+- [scp](./Linux/명령어정리/scp.md)
+- [firewalld](./Linux/명령어정리/firewalld.md)
 
 <br />
 
