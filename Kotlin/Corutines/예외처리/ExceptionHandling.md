@@ -122,3 +122,84 @@ launch 도 동일하게 부모 코루틴에 예외를 전파하며,
 
 따라서, CoroutineScope를 통해 root 코루틴을 만들어 실행했을 때는 전파할 부모 코루틴이 없기 때문에 예외가 출력되지 않았던 것.
 
+
+## 부모 코루틴으로 예외를 전파하지 않는 방법
+
+SupervisorJob 을 활용하는 방법이 있다.
+SupervisorJob은 부모 자식 간의 관계를 유지하지만 부모코루틴으로 전파하지 않는다.
+
+```kotlin
+
+fun main(): Unit = runBlocking {
+    // 부모 코루틴으로 예외를 전파하지 않음
+    val job = async(SupervisorJob()) {
+        throw IllegalArgumentException()
+    }
+
+    delay(1000)
+    job.await() // 여기서 예외를 꺼내야 부모코루틴에 전파됨
+}
+```
+
+## 예외를 다루는 방법
+
+### try-catch-finally
+
+```kotlin
+fun main(): Unit = runBlocking {
+    launch {
+        try {
+            throw RuntimeException("launch 오류 발생")
+        } catch (e: Exception) {
+            println("launch 정상 종료")
+        }
+    }
+}
+```
+
+### CoroutineExceptionHandler
+에러 발생 시 공통된 로직을 수행하고 싶을 때 사용
+try-catch-finally와 달리 예외 발생 이후, 에러로깅/에러 메시지 전송등에 사용된다.
+launch 에만 사용할 수 있고, 부모 코루틴이 있으면 동작하지 않는다 !
+
+```kotlin
+fun main(): Unit = runBlocking {
+    val exceptionHandler = CoroutineExceptionHandler { _, throwable ->
+        println("예외")
+        throw throwable // 예외를 다시 던질 수 있음
+    }
+
+    val job = CoroutineScope(Dispatchers.Default).launch(exceptionHandler) {
+        throw IllegalArgumentException()
+    }
+
+    delay(1000)
+
+}
+```
+
+예외를 다시 던지면 예외가 출력되게 된다.
+```
+예외
+Exception in thread "DefaultDispatcher-worker-1" java.lang.IllegalArgumentException
+	at com.hyeri.learningcoroutine.lec05.CoroutineExceptionHandlerKt$main$1$job$1.invokeSuspend(CoroutineExceptionHandler.kt:12)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:811)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:715)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:702)
+	Suppressed: kotlinx.coroutines.internal.DiagnosticCoroutineContextException: [com.hyeri.learningcoroutine.lec05.CoroutineExceptionHandlerKt$main$1$invokeSuspend$$inlined$CoroutineExceptionHandler$1@266ce50, StandaloneCoroutine{Cancelling}@2021f862, Dispatchers.Default]
+
+Process finished with exit code 0
+```
+
+## CancellationException vs 일반 Exception
+1. 발생한 예외가 CancellationException 인 경우 취소로 간주하고 부모에게 전파하지 않는다.
+2. 다른 예외인 경우 실패로 간주하고 부모 코루틴에 전파한다.
+3. 내부적으로는 모두 취소됨으로 관리된다.
+
+### 코루틴 상태
+- 예외 발생 시: New > Active > (예외 발생) > Cancelling > Cancelled
+- 정상 종료 시: New > Active > Completing > Completed
+
